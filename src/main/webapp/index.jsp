@@ -6,7 +6,8 @@
 <body>
 <%@ include file="assets/html/nav.jsp" %>
 <%@ include file="assets/html/header.jsp" %>
-<%--<%@ include file="assets/html/body.jsp" %> --%>
+<%--<%@ include file="assets/html/body.jsp" %>   --%>
+<%@ include file="assets/html/main.jsp" %>
 <%@ include file="assets/html/formulario2.jsp" %>
 <%@ include file="assets/html/footer.jsp" %>
 </body>

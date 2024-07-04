@@ -28,7 +28,7 @@ public class HabitacionBusiness {
 		habitacion1.setNombre("Habitacion 1, Simple");
 		habitacion1.setDescripcion("Habitacion Clasica concama extra grande,  vista al oceano y balcon");
 		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
+				"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 		habitacion1.setPrecio(1000);
 		habitacion1.setHabitaciones(3);
 		habitacion1.setMetraje(100);
@@ -38,100 +38,100 @@ public class HabitacionBusiness {
 		
 		// Info Habitacion 2
 		Habitacion habitacion2 = new Habitacion();
-		habitacion1.setId(2);
-		habitacion1.setNombre("Habitacion 2, Doble - Simple");
-		habitacion1.setDescripcion("Habitacion Clasica con s camas  grandes o dobles,  vista al oceano y balcon");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(2000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion2.setId(2);
+		habitacion2.setNombre("Habitacion 2, Doble - Simple");
+		habitacion2.setDescripcion("Habitacion Clasica con s camas  grandes o dobles,  vista al oceano y balcon");
+		habitacion2.setImagen(
+				"https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		habitacion2.setPrecio(2000);
+		habitacion2.setHabitaciones(3);
+		habitacion2.setMetraje(100);
+		habitacion2.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 	
 		// Info Habitacion 3
 		Habitacion habitacion3 = new Habitacion();
-		habitacion1.setId(3);
-		habitacion1.setNombre("Habitacion 3, Doble Normal");
-		habitacion1.setDescripcion("Habitacion superior en planta alta con vsta al iceano y 2 camas dobles");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(10000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion3.setId(3);
+		habitacion3.setNombre("Habitacion 3, Doble Normal");
+		habitacion3.setDescripcion("Habitacion superior en planta alta con vsta al iceano y 2 camas dobles");
+		habitacion3.setImagen(
+				"https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		habitacion3.setPrecio(10000);
+		habitacion3.setHabitaciones(3);
+		habitacion3.setMetraje(100);
+		habitacion3.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 		// Info Habitacion 4
 		Habitacion habitacion4 = new Habitacion();
-		habitacion1.setId(4);
-		habitacion1.setNombre("HAbitacion 4, Doble King");
-		habitacion1.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(4000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion4.setId(4);
+		habitacion4.setNombre("Habitacion 4, Doble King");
+		habitacion4.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
+		habitacion4.setImagen(
+				"https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg");
+		habitacion4.setPrecio(4000);
+		habitacion4.setHabitaciones(3);
+		habitacion4.setMetraje(100);
+		habitacion4.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 		// Info Habitacion 5
 		Habitacion habitacion5 = new Habitacion();
-		habitacion1.setId(5);
-		habitacion1.setNombre("Habitacion 5, Doble - King");
-		habitacion1.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(5000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion5.setId(5);
+		habitacion5.setNombre("Habitacion 5, Doble - King");
+		habitacion5.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
+		habitacion5.setImagen(
+				"https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		habitacion5.setPrecio(5000);
+		habitacion5.setHabitaciones(3);
+		habitacion5.setMetraje(100);
+		habitacion5.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 		// Info Habitacion 6
 		Habitacion habitacion6 = new Habitacion();
-		habitacion1.setId(6);
-		habitacion1.setNombre("Habitacion 6, Doble - King");
-		habitacion1.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(10000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion6.setId(6);
+		habitacion6.setNombre("Habitacion 6, Doble - King");
+		habitacion6.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
+		habitacion6.setImagen(
+				"https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg");
+		habitacion6.setPrecio(10000);
+		habitacion6.setHabitaciones(3);
+		habitacion6.setMetraje(100);
+		habitacion6.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 		// Info Habitacion 7
 		Habitacion habitacion7 = new Habitacion();
-		habitacion1.setId(7);
-		habitacion1.setNombre("Habitacion 7, Doble - King");
-		habitacion1.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(10000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion7.setId(7);
+		habitacion7.setNombre("Habitacion 7, Doble - King");
+		habitacion7.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
+		habitacion7.setImagen(
+				"https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		habitacion7.setPrecio(10000);
+		habitacion7.setHabitaciones(3);
+		habitacion7.setMetraje(100);
+		habitacion7.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
 		// Info Habitacion 8
 		Habitacion habitacion8 = new Habitacion();
-		habitacion1.setId(8);
-		habitacion1.setNombre("Habitacion 8, Doble - King");
-		habitacion1.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion1.setImagen(
-				"https://media.gettyimages.com/photos/kirk-hammettlars-ulrich-james-hetfield-and-robert-trujillo-from-at-pictureid130699422?s=2048x2048");
-		habitacion1.setPrecio(10000);
-		habitacion1.setHabitaciones(3);
-		habitacion1.setMetraje(100);
-		habitacion1.setMapa(
+		habitacion8.setId(8);
+		habitacion8.setNombre("Habitacion 8, Doble - King");
+		habitacion8.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
+		habitacion8.setImagen(
+				"https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		habitacion8.setPrecio(10000);
+		habitacion8.setHabitaciones(3);
+		habitacion8.setMetraje(100);
+		habitacion8.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 		// Agrega Habitaciones a lista
@@ -183,5 +183,20 @@ public class HabitacionBusiness {
 		int valor = precio * habitaciones;
 		return valor;
 	}
+
+	@Override
+	public String toString() {
+		return "HabitacionBusiness [getHabitaciones()=" + getHabitaciones() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	
+	public void devuelve(List<Habitacion> listaHabitaciones) {
+	    
+	    
+	    for (Habitacion habitacion : listaHabitaciones) {
+	    	System.out.println(habitacion.toString());  
+	    }
+	}
+	
 
 }

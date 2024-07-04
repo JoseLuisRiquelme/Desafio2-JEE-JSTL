@@ -92,6 +92,15 @@ public class Habitacion {
 	public void setMapa(String mapa) {
 		this.mapa= mapa;
 	}
+
+	@Override
+	public String toString() {
+		return "Habitacion [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", imagen=" + imagen
+				+ ", precio=" + precio + ", habitaciones=" + habitaciones + ", metraje=" + metraje + ", mapa=" + mapa
+				+ "]";
+	}
+	
+	
 	
 	
 	

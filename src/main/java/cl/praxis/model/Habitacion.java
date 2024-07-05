@@ -1,7 +1,7 @@
 package cl.praxis.model;
 
 public class Habitacion {
-	
+
 	private int id;
 	private String nombre;
 	private String descripcion;
@@ -10,10 +10,10 @@ public class Habitacion {
 	private int habitaciones;
 	private int metraje;
 	private String mapa;
-	
+
 	public Habitacion() {
 		super();
-	
+
 	}
 
 	public Habitacion(int id, String nombre, String descripcion, String imagen, int precio, int habitaciones,
@@ -84,13 +84,13 @@ public class Habitacion {
 	public void setMetraje(int metraje) {
 		this.metraje = metraje;
 	}
-	
+
 	public String getMapa() {
 		return mapa;
 	}
 
 	public void setMapa(String mapa) {
-		this.mapa= mapa;
+		this.mapa = mapa;
 	}
 
 	@Override
@@ -99,11 +99,5 @@ public class Habitacion {
 				+ ", precio=" + precio + ", habitaciones=" + habitaciones + ", metraje=" + metraje + ", mapa=" + mapa
 				+ "]";
 	}
-	
-	
-	
-	
-	
-	
 
 }

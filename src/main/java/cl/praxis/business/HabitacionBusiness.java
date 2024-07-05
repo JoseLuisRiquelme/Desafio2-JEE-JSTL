@@ -5,13 +5,11 @@ import java.util.List;
 import cl.praxis.model.*;
 
 public class HabitacionBusiness {
-	
+
 	/**
 	 * -----------------------------------------------------------------
-	---------------------------
-	 * Método setea y obtiene las habitaciones existentes en una lista de
-	objetos de tipo
-	 * habitacion
+	 * --------------------------- Método setea y obtiene las habitaciones
+	 * existentes en una lista de objetos de tipo habitacion
 	 *
 	 * @param -
 	 * @return List<Habitacion>
@@ -35,7 +33,7 @@ public class HabitacionBusiness {
 		habitacion1.setMapa(
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
-		
+
 		// Info Habitacion 2
 		Habitacion habitacion2 = new Habitacion();
 		habitacion2.setId(2);
@@ -50,7 +48,6 @@ public class HabitacionBusiness {
 
 				"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.411793967857!2d-70.61286488437952!3d33.46462808076988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfed639ab813%3A0xb92488060556a1df!2sEstadio%20Nacional%20Julio%20Mart%C3%ADnez%20Pr%C3%A1danos!5e0!3m2!1ses!2scl!4v1661265818941!5m2!1ses!2scl");
 
-	
 		// Info Habitacion 3
 		Habitacion habitacion3 = new Habitacion();
 		habitacion3.setId(3);
@@ -70,8 +67,7 @@ public class HabitacionBusiness {
 		habitacion4.setId(4);
 		habitacion4.setNombre("Habitacion 4, Doble King");
 		habitacion4.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion4.setImagen(
-				"https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg");
+		habitacion4.setImagen("https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg");
 		habitacion4.setPrecio(900000);
 		habitacion4.setHabitaciones(3);
 		habitacion4.setMetraje(100);
@@ -98,8 +94,7 @@ public class HabitacionBusiness {
 		habitacion6.setId(6);
 		habitacion6.setNombre("Habitacion 6, Doble - King");
 		habitacion6.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
-		habitacion6.setImagen(
-				"https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg");
+		habitacion6.setImagen("https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg");
 		habitacion6.setPrecio(300000);
 		habitacion6.setHabitaciones(3);
 		habitacion6.setMetraje(100);
@@ -143,20 +138,19 @@ public class HabitacionBusiness {
 		habitaciones.add(habitacion6);
 		habitaciones.add(habitacion7);
 		habitaciones.add(habitacion8);
-		
+
 		// Retorno de lista dhabitaciones
 		return habitaciones;
 	}
-	
+
 	/**
-	 * -----------------------------------------------------------------
-	 *  Método que entrega el objeto habitacion segun el id
-	 * de busqueda
+	 * ----------------------------------------------------------------- Método que
+	 * entrega el objeto habitacion segun el id de busqueda
 	 *
 	 * @param Habitacion habitacion
 	 * @return Habitacion habitacion
 	 * @author: Autor <jlrsaez@gmail.com> *
-	 *  @version: 02/07/2024
+	 * @version: 02/07/2024
 	 */
 	public Habitacion getHabitacionByID(int id) {
 		Habitacion habitacion = new Habitacion();
@@ -171,9 +165,9 @@ public class HabitacionBusiness {
 	}
 
 	/**
-	 * -----------------------------------------------------------------
-	 *  Método retorna el valor a pagar de una reserva
-	 * segun el valor y cantidad de habitaciones
+	 * ----------------------------------------------------------------- Método
+	 * retorna el valor a pagar de una reserva segun el valor y cantidad de
+	 * habitaciones
 	 *
 	 * @param int precio, int habitaciones
 	 * @return int valor
@@ -190,14 +184,12 @@ public class HabitacionBusiness {
 		return "HabitacionBusiness [getHabitaciones()=" + getHabitaciones() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-	
+
 	public void devuelve(List<Habitacion> listaHabitaciones) {
-	    
-	    
-	    for (Habitacion habitacion : listaHabitaciones) {
-	    	System.out.println(habitacion.toString());  
-	    }
+
+		for (Habitacion habitacion : listaHabitaciones) {
+			System.out.println(habitacion.toString());
+		}
 	}
-	
 
 }

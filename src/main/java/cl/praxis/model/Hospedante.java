@@ -8,10 +8,10 @@ public class Hospedante {
 	private String medioPago;
 	private int dias;
 	private String fechaIngreso;
-	
+
 	public Hospedante() {
 		super();
-		
+
 	}
 
 	public Hospedante(String nombre, String apellido, String email, String medioPago, int dias, String fechaIngreso) {
@@ -71,8 +71,5 @@ public class Hospedante {
 	public void setFechaIngreso(String fechaIngreso) {
 		this.fechaIngreso = fechaIngreso;
 	}
-	
-	
-	
 
 }

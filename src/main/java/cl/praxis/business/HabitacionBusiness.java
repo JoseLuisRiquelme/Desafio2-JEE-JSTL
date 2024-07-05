@@ -29,7 +29,7 @@ public class HabitacionBusiness {
 		habitacion1.setDescripcion("Habitacion Clasica concama extra grande,  vista al oceano y balcon");
 		habitacion1.setImagen(
 				"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion1.setPrecio(1000);
+		habitacion1.setPrecio(100000);
 		habitacion1.setHabitaciones(3);
 		habitacion1.setMetraje(100);
 		habitacion1.setMapa(
@@ -43,7 +43,7 @@ public class HabitacionBusiness {
 		habitacion2.setDescripcion("Habitacion Clasica con s camas  grandes o dobles,  vista al oceano y balcon");
 		habitacion2.setImagen(
 				"https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion2.setPrecio(2000);
+		habitacion2.setPrecio(200000);
 		habitacion2.setHabitaciones(3);
 		habitacion2.setMetraje(100);
 		habitacion2.setMapa(
@@ -58,7 +58,7 @@ public class HabitacionBusiness {
 		habitacion3.setDescripcion("Habitacion superior en planta alta con vsta al iceano y 2 camas dobles");
 		habitacion3.setImagen(
 				"https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion3.setPrecio(10000);
+		habitacion3.setPrecio(100000);
 		habitacion3.setHabitaciones(3);
 		habitacion3.setMetraje(100);
 		habitacion3.setMapa(
@@ -72,7 +72,7 @@ public class HabitacionBusiness {
 		habitacion4.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion4.setImagen(
 				"https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg");
-		habitacion4.setPrecio(4000);
+		habitacion4.setPrecio(400000);
 		habitacion4.setHabitaciones(3);
 		habitacion4.setMetraje(100);
 		habitacion4.setMapa(
@@ -86,7 +86,7 @@ public class HabitacionBusiness {
 		habitacion5.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion5.setImagen(
 				"https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion5.setPrecio(5000);
+		habitacion5.setPrecio(500000);
 		habitacion5.setHabitaciones(3);
 		habitacion5.setMetraje(100);
 		habitacion5.setMapa(
@@ -100,7 +100,7 @@ public class HabitacionBusiness {
 		habitacion6.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion6.setImagen(
 				"https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg");
-		habitacion6.setPrecio(10000);
+		habitacion6.setPrecio(100000);
 		habitacion6.setHabitaciones(3);
 		habitacion6.setMetraje(100);
 		habitacion6.setMapa(
@@ -114,7 +114,7 @@ public class HabitacionBusiness {
 		habitacion7.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion7.setImagen(
 				"https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion7.setPrecio(10000);
+		habitacion7.setPrecio(100000);
 		habitacion7.setHabitaciones(3);
 		habitacion7.setMetraje(100);
 		habitacion7.setMapa(
@@ -128,7 +128,7 @@ public class HabitacionBusiness {
 		habitacion8.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion8.setImagen(
 				"https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion8.setPrecio(10000);
+		habitacion8.setPrecio(1000000);
 		habitacion8.setHabitaciones(3);
 		habitacion8.setMetraje(100);
 		habitacion8.setMapa(

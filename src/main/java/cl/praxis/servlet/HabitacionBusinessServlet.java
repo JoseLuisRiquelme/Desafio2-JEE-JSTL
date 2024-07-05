@@ -34,7 +34,7 @@ public class HabitacionBusinessServlet extends HttpServlet {
 		Habitacion habitacion = habitacionBusiness.getHabitacionByID(id);
 
 		int precio = habitacion.getPrecio();
-		int aPagar = precio * dias;
+		int aPagar = habitacionBusiness.calculaValorCompra(precio, dias);
 		Hospedante hospedante = new Hospedante(nombre, apellido, email, medioPago, dias, fechaIngreso);
 
 		request.setAttribute("hospedante", hospedante);

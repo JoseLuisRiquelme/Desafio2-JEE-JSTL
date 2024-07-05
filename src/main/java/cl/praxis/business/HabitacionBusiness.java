@@ -40,10 +40,10 @@ public class HabitacionBusiness {
 		Habitacion habitacion2 = new Habitacion();
 		habitacion2.setId(2);
 		habitacion2.setNombre("Habitacion 2, Doble - Simple");
-		habitacion2.setDescripcion("Habitacion Clasica con s camas  grandes o dobles,  vista al oceano y balcon");
+		habitacion2.setDescripcion("Habitacion Clasica con 2 camas  grandes o dobles,  vista al oceano y balcon");
 		habitacion2.setImagen(
 				"https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion2.setPrecio(200000);
+		habitacion2.setPrecio(800000);
 		habitacion2.setHabitaciones(3);
 		habitacion2.setMetraje(100);
 		habitacion2.setMapa(
@@ -58,7 +58,7 @@ public class HabitacionBusiness {
 		habitacion3.setDescripcion("Habitacion superior en planta alta con vsta al iceano y 2 camas dobles");
 		habitacion3.setImagen(
 				"https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion3.setPrecio(100000);
+		habitacion3.setPrecio(700000);
 		habitacion3.setHabitaciones(3);
 		habitacion3.setMetraje(100);
 		habitacion3.setMapa(
@@ -72,7 +72,7 @@ public class HabitacionBusiness {
 		habitacion4.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion4.setImagen(
 				"https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg");
-		habitacion4.setPrecio(400000);
+		habitacion4.setPrecio(900000);
 		habitacion4.setHabitaciones(3);
 		habitacion4.setMetraje(100);
 		habitacion4.setMapa(
@@ -100,7 +100,7 @@ public class HabitacionBusiness {
 		habitacion6.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion6.setImagen(
 				"https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg");
-		habitacion6.setPrecio(100000);
+		habitacion6.setPrecio(300000);
 		habitacion6.setHabitaciones(3);
 		habitacion6.setMetraje(100);
 		habitacion6.setMapa(
@@ -114,7 +114,7 @@ public class HabitacionBusiness {
 		habitacion7.setDescripcion("Suite executive en planta superiorcon cama extragrande y vistas al ocean");
 		habitacion7.setImagen(
 				"https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-		habitacion7.setPrecio(100000);
+		habitacion7.setPrecio(600000);
 		habitacion7.setHabitaciones(3);
 		habitacion7.setMetraje(100);
 		habitacion7.setMapa(
@@ -158,10 +158,11 @@ public class HabitacionBusiness {
 	 * @author: Autor <jlrsaez@gmail.com> *
 	 *  @version: 02/07/2024
 	 */
-	public Habitacion getHabitacionByID(Habitacion habitacion) {
+	public Habitacion getHabitacionByID(int id) {
+		Habitacion habitacion = new Habitacion();
 		List<Habitacion> listaHabitaciones = getHabitaciones();
 		for (int x = 0; x < listaHabitaciones.size(); x++) {
-			if (listaHabitaciones.get(x).getId() == habitacion.getId()) {
+			if (listaHabitaciones.get(x).getId() == id) {
 				habitacion = listaHabitaciones.get(x);
 			}
 		}

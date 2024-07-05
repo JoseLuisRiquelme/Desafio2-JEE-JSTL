@@ -19,11 +19,12 @@
 <body>
 	<%@ include file="assets/html/nav.jsp" %>
 	<jsp:include page="assets/html/header.jsp"></jsp:include>
+	<div class="container custom-margin">
 	<div class="container">
-	<h2>Listado de estudiantes</h2>
+	<h2>Detalle Solicitud Habitacion: ${habitacion.getNombre()}</h2>
 	</div>
-	<table class="table">
-	<thead class="table-dark">
+	<table class="table "  >
+	<thead class="table-ligth">
 	<tr>
 	<th>#</th>
 	<th>Item</th>
@@ -33,36 +34,42 @@
 	<tr>
 	<th >1</th>
 	<td >Nombre</td>
-	<td> <!--  request.getAttribute(hospedante.nombre)%> --></td>
+	<td> ${hospedante.nombre}</td>
 	</tr>
 	<tr>
 	<th >2</th>
 	<td >Apellido</td>
-	<td> ${request.geAttribute(hospedante.apellido)}</td>
+	<td> ${hospedante.apellido}</td>
 	</tr>
 	<tr>
 	<th >3</th>
 	<td >Email</td>
-	<td> ${request.getParameter(hospedante.email)}</td>
+	<td> ${hospedante.email}</td>
 	</tr>
 	<tr>
 	<th >4</th>
 	<td >Medio Pago</td>
-	<td> ${request.getParameter(hospedante.medioPago)}</td>
+	<td> ${hospedante.medioPago}</td>
 	</tr>
 	<tr>
 	<th >5</th>
-	<td >Dias</td>
-	<td> ${request.getParameter(hospedante.dias)}</td>
+	<td >Dia(s)</td>
+	<td> ${hospedante.dias}</td>
 	</tr>
 	<tr>
 	<th >6</th>
 	<td >Fecha Ingreso</td>
-	<td> ${request.getParameter(hospedante.fechaIngreso)}</td>
+	<td> ${hospedante.fechaIngreso}</td>
+	</tr>
+	<tr>
+	<th >7</th>
+	<td >Valor a Pagar</td>
+	<td><strong>CL$ </strong> ${aPagar}</td>
 	</tr>
 	
 	</tbody>
 	</table>
+	</div>
 	
 	<jsp:include page="assets/html/footer.jsp"></jsp:include>
 	
